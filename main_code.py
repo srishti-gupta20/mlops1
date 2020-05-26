@@ -5,7 +5,6 @@ import numpy as np
 #loading the dataset
 dataset = mnist.load_data('mymnist.db')
 
-
 train , test = dataset
 x_train , y_train = train
 x_test , y_test = test
